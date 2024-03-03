@@ -1,0 +1,27 @@
+.video-container video{
+    width: 20%;
+    height: 500px;
+    transition: all ease-out 500ms;
+    border: 5px soild white;
+    border-radius: 10px;
+}
+
+.video-container video:hover{
+    width: 100%;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    border: 5px soild white;
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
